@@ -16,6 +16,11 @@ header {
   margin: 0px;
   border: 0px;
   display: block;
+  overflow: auto;
+}
+
+ul {
+  overflow: auto;
 }
 
 .top-r {
@@ -32,10 +37,13 @@ header li #mini-grid {
   background-size: 528px 68px;
 }
 
+
+
 .search {
-  padding-top: 230px;
+  padding-top: 200px;
   width: 50%;
   margin: 0 auto;
+  float: left;
 }
 
 #separator {
