@@ -1,0 +1,31 @@
+html {
+	position: relative;
+	min-height: 100%;
+}
+body {
+	background: #f1f1f1;
+	font-family: Roboto, arial, sans-serif;
+	font-size: 13px;
+}
+
+/*Header*/
+
+header {
+	height: 50px;
+	position: fixed;
+	width: 100%;
+	z-index: 1000;
+}
+
+#search-bar-input {
+
+}
+#hamburger-menu {
+	float:left;
+	display: inline-block;
+}
+
+.float-r {
+	display:inline-block;
+	float:right;
+}

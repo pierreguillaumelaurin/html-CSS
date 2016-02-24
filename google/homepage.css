@@ -1,0 +1,147 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  /*clear:both;*/
+}
+
+body {
+  font-size: small;
+  font-family: arial, sans-serif;
+}
+
+header {
+  height: auto;
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+  display: block;
+}
+
+.top-r {
+	display:inline;
+	padding: 20px;
+	float: right;
+  text-align: right;
+  width: auto;
+}
+
+
+header li #mini-grid {
+  background-image: url("//ssl.gstatic.com/gb/images/i1_1967ca6a.png");
+  background-size: 528px 68px;
+}
+
+#separator {
+  height: 190px;
+}
+
+
+#logo img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  float: center;
+  clear: both;
+}
+
+#searchbar {
+  position: relative;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+  padding: 3px 5px 0 0;
+  height: 40px;
+  width: 495px;
+	float: center;
+	clear: both;
+	font-family: times;
+  outline: medium none;
+  font: 16px arial, sans-serif;
+  line-height: 26px !important;
+  white-space: nowrap;
+
+}
+
+.searchbar:active {
+  color: blue;
+  text-align: center;
+}
+
+.buttons {
+  margin-top: 20px;
+  text-align: center;
+}
+
+
+.buttons button {
+  height: 36px;
+  margin: 11px 4px;
+  border: 1px solid #F2F2F2;
+  border-radius: 2px;
+  background-color: #F2F2F2;  
+  color: #757575;
+  line-height: 27px;
+  cursor: default;
+  font-family: arial,sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  min-width: 54px;
+  padding: 0px 16px;
+  text-align: center;
+  display: inline;
+  }
+
+  .buttons button:hover {
+    color: #222222;
+    border:1px solid #808080;
+    box-shadow: 0 1px #D3D3D3;
+  }
+
+.sub-buttons {
+	color: #222;
+  text-align: center;
+}
+
+.sub-buttons p {
+  font-size: small;
+  display: inline-block;
+  line-height: 28px;
+}
+
+footer {
+	position: absolute;
+  width: 100%;
+  overflow: hidden;
+  text-align: center;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: #f2f2f2;
+  line-height: 40px;
+  border-top:1px solid #D2D2D2;
+  display: inline;
+  color: #666;
+  font-family: arial, sans-serif;
+}
+
+
+.left {
+  float: left;
+  margin-left: 30px;
+}
+
+.right {
+  margin-right: 30px;
+  float: right;
+}
+
+.left a, .right a {
+  color: #666666;
+  text-decoration: none;
+  font-size: small;
+  font-family: Arial;
+  padding: 5px 8px 5px 8px;
+  display: inline;
+}
