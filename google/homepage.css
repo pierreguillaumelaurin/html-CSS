@@ -32,6 +32,10 @@ header li #mini-grid {
   background-size: 528px 68px;
 }
 
+.search {
+  padding-top: 230px;
+}
+
 #separator {
   height: 190px;
 }
