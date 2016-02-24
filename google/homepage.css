@@ -34,6 +34,8 @@ header li #mini-grid {
 
 .search {
   padding-top: 230px;
+  width: 50%;
+  margin: 0 auto;
 }
 
 #separator {
