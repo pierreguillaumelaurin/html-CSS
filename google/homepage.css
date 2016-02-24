@@ -38,9 +38,13 @@ header li #mini-grid {
 }
 
 
+.search-grid {
+  overflow: auto;
+  padding: 15px 100px;
+  margin-top: 50px;
+}
 
 .search {
-  padding-top: 200px;
   width: 50%;
   margin: 0 auto;
   float: left;
