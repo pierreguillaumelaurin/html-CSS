@@ -130,11 +130,12 @@ footer {
 .left {
   float: left;
   margin-left: 30px;
+  padding-left: 30px;
 }
 
 .right {
-  margin-right: 30px;
   float: right;
+  margin-right: 30px;
 }
 
 .left a, .right a {
