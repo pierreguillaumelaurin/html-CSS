@@ -1,0 +1,72 @@
+html, body, section {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  position: relative;
+  top: 20%;
+  color: white
+}
+
+nav {
+  width: 100%;
+  background-color: rgba(0,0,0,.6);
+  color: white;
+}
+
+.nav-bottom {
+	color: white;
+	position: absolute;
+	bottom: 0;
+}
+
+.nav-sticky {
+	position: fixed;
+	z-index: 1;
+}
+
+ul {
+	width: 100%;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding: 0;
+}
+
+li {
+	display: inline-block;
+	font-weight: bold;
+	font-size: 20px;
+	margin: 20px 6%;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+#section-one {
+  background-image: url("http://www.planwallpaper.com/static/images/magic-of-blue-universe-images.jpg");
+  background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+#section-two {
+  background-color: black;
+}
+
+#section-three {
+  background-color: purple;
+}
+
+#section-four {
+  background-color: blue;
+}
+
+#section-five {
+  background-color: green;
+}
